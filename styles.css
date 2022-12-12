@@ -42,7 +42,8 @@ cursor: pointer;
         grid-template-columns: 1fr 1fr;
         justify-content: space-between;
         border: 3px solid blue;
-        margin-top: 100px;
+        margin-top: 50px;
+        
         }
 
 .max-skill-min-budget-header{
@@ -80,7 +81,6 @@ cursor: pointer;
 }
 picture{
     display: block;
-    width: 100%;
     max-width: 1800px;
     border: 8px solid green;
     margin: 0px;
