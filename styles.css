@@ -9,6 +9,7 @@
     
 }
 
+
 .head-items{
     display: flex;
     justify-content: space-between;
@@ -40,9 +41,9 @@ cursor: pointer;
     .max-skill-min-budget-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-content: space-between;
+        justify-content: space-evenly;
         border: 3px solid blue;
-        margin-top: 50px;
+        /* margin-top: 50px; */
         
         }
 
@@ -81,6 +82,7 @@ cursor: pointer;
 }
 picture{
     display: block;
+    
     max-width: 1800px;
     border: 8px solid green;
     margin: 0px;
@@ -196,6 +198,12 @@ picture{
 .footer-get-started:hover{
     background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
 }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1800px){
+    body{
+        margin: 100px;
+    }
 }
 
 
