@@ -13,6 +13,8 @@
 .head-items{
     display: flex;
     justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 28px;
     
 
 }
@@ -48,7 +50,9 @@ cursor: pointer;
     
 }
 .max-skill{
-    width: 60%;    
+    width: 60%;  
+    
+    padding-left: 28px;
     
     
 }
@@ -71,6 +75,7 @@ picture{
     display: block;
     margin: 0px;
     overflow: hidden;
+    
           
 }
 
@@ -236,17 +241,11 @@ picture{
         .max-skill{
     
             width: 70%;
-            padding-left: 30px;
             padding-top: 300px;
             
             
         }
-        .head-items{
-            padding-left: 30px;
-            padding-right: 60px;
-            
         
-        }
         
 
     
