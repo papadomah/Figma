@@ -4,7 +4,7 @@
 
 *{
     padding: 0px;
-    /* margin: 20px; */
+    
     font-family: Plus Jakarta Sans;
     
 }
@@ -48,7 +48,7 @@ cursor: pointer;
     
 }
 .max-skill{
-    width: 60%;   
+    width: 60%;    
     
     
 }
@@ -64,10 +64,8 @@ cursor: pointer;
     cursor: pointer;
     margin-top: 50px;
     width: 130px;
-    
-    
-    
-    
+       
+        
 }
 picture{
     display: block;
@@ -77,23 +75,27 @@ picture{
 }
 
 
-
-
 .popular-courses-container{
     display: grid;
     grid-template-columns: repeat(3, 400px);
-    gap: 10px;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
-    
+    gap: 30px;   
     justify-content: space-evenly;
+    padding-bottom: 110px;
+    grid-column-gap: 5px;
         
     
+}
+.popular-background{
+    display: block;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    height: 100%;
+    width: 100%;
 }
 .popular-courses-container div{
     background-color: #FFFFFF;
     border-radius: 28px;
-    width: 360px;
-    
+    width: 320px;
+    margin:  0 auto;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
@@ -141,6 +143,9 @@ picture{
     display: flex;
     justify-content: space-between;
     background-color: #13183F;
+    padding: 28px;
+    
+    
 
     
 }
@@ -150,7 +155,7 @@ picture{
     background-color: #F02AA6;
     border-radius: 28px;
     color: #FFFFFF;
-    padding: 15px 37px;
+    padding: 15px 33px;
     cursor: pointer;
     
 }
@@ -184,9 +189,7 @@ picture{
             width: 100%;
             padding-top: 200px;
         }
-        .footer{
-            padding: 30px
-        }
+      
         
   
 }
@@ -213,9 +216,8 @@ picture{
     width: 100%;
     overflow: visible;
 }
-.footer{
-    padding: 30px
-}
+
+
 }
 
 
@@ -229,8 +231,7 @@ picture{
         grid-template-columns: 1fr 1fr;
         justify-content: space-between;
         
-    
-        
+           
         }
         .max-skill{
     
@@ -242,13 +243,11 @@ picture{
         }
         .head-items{
             padding-left: 30px;
-            padding-right: 30px;
+            padding-right: 60px;
             
         
         }
-        .footer{
-            padding: 30px
-        }
+        
 
     
 }
